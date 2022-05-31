@@ -8,6 +8,7 @@ import axios from 'axios'
 import Search from './search.svg';
 import Logo from './ss4.png'
 
+
 function Header(){
     const state = useContext(GlobalState)
     const [isLogged] = state.APIUser.isLogged
